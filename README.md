@@ -1,23 +1,9 @@
-########################################
-##            Welcome!!               ##
-########################################
 
-Name: Maurice Peplinski
-Datum 23.06.2026
+Welcome!!
 
-########################################
-
-Project:
-Potential Risks of AI Writing Style Imitation Based on Personal Chat Data/
-Potenzielle Risiken der Schreibstil-Imitation durch KI-Modelle anhand persönlicher
-Messenger-Daten
-
-
-########################################
-
-Eng/Ger
-
-Eng
+## Potential Risks of AI Writing Style Imitation Based on Personal Chat Data/ Potenzielle Risiken der Schreibstil-Imitation durch KI-Modelle anhand persönlicher Messenger-Daten
+ 
+# **Project description** (Eng)
 
 This project represents an attempt to fine-tune an AI model using personal WhatsApp chat data to approximate
 a person's specific writing style.
@@ -36,33 +22,34 @@ For the Evaluation Phase, Six different evaluation metrics and a significance te
 - Number of non-empty lines
 - Wilcoxon signed-rank test
 
-Structure
+### Structure
 
 
-llm-personal-sytle-tuning/
-│
-├── notebooks/
-│   ├── A01Data_preparation_and_training.ipynb
-│   ├── A02Training_result_check.ipynb
-│   └── ...
-│
-├── results/
-│   ├── graphs/
-│   ├── tables/
-│   └── ...
-│
-├── data/
+llm-personal-sytle-tuning/  
+│  
+├── notebooks/  
+│   ├── A01Data_preparation_and_training.ipynb  
+│   ├── A02Training_result_check.ipynb  
+│   └── ...  
+│  
+├── results/  
+│   ├── graphs/  
+│   ├── tables/  
+│   └── ...  
+│  
+├── data/  
 │   
-│
-├── models/
+│  
+├── models/  
 │   
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+│  
+├── README.md  
+├── requirements.txt  
+└── .gitignore  
 
-Notebooks:
-The six notebooks represent the implementation of the experiment and the evaluation.
+**Notebooks:**  
+  The six notebooks represent the implementation of the experiment and the evaluation.  
+
 - A) is divided into three parts: The first is data preparation, the second is training, and the third is 
 testing the model and the dataset through inference and word clouds.
 
@@ -70,10 +57,11 @@ testing the model and the dataset through inference and word clouds.
 comparison, "Metrics" calculates the comparison between the models, and "analysis" analyzes and evaluates the results.
 
 
-Results:
-The project results are organized into graphical and tabular outputs.
-
-Ger
+**Results:**  
+  The project results are organized into graphical and tabular outputs.  
+ 
+    
+# **Projektbeschreibung** (Ger)
 
 Das Projekt stellt den Versuch dar ein Ki-Modell mit persönlichen WhatsApp-Chatdaten zu feinjustieren, 
 um eine Annäherung des Schreibstils an die Person zu erwirken.
@@ -94,42 +82,42 @@ Für die Evaluation wurden sechs verschiedene Evaluationsmetriken und ein Signif
 - Wilcoxon-Vorzeichen-Signifikanztest
 
 
-Structure
+### Struktur
 
-llm-personal-sytle-tuning/
-│
-├── notebooks/
-│   ├── A01Data_preparation_and_training.ipynb
-│   ├── A02Training_result_check.ipynb
-│   └── ...
-│
-├── results/
-│   ├── graphs/
-│   ├── tables/
-│   └── ...
-│
-├── data/
+llm-personal-sytle-tuning/  
+│  
+├── notebooks/  
+│   ├── A01Data_preparation_and_training.ipynb  
+│   ├── A02Training_result_check.ipynb  
+│   └── ...  
+│  
+├── results/  
+│   ├── graphs/  
+│   ├── tables/  
+│   └── ...  
+│  
+├── data/  
 │   
-│
-├── models/
+│  
+├── models/  
 │   
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+│  
+├── README.md  
+├── requirements.txt  
+└── .gitignore  
 
 	
-	Notebooks:
-	# Die sechs Notebooks stellen die Implementierung des Experiments und der Evaluation dar.
+**Notebooks:**  
+  Die sechs Notebooks stellen die Implementierung des Experiments und der Evaluation dar.
 	
-	- A) ist in drei Teile gegliedert. Der erste ist die
-	  Datenaufbereitung. Der zweite ist das Training. Der dritte ist die Testung des Modells
-	  und des Datensatzes durch Inferenzen und Wordclouds.
+- A) ist in drei Teile gegliedert. Der erste ist die
+	 Datenaufbereitung. Der zweite ist das Training. Der dritte ist die Testung des Modells
+	 und des Datensatzes durch Inferenzen und Wordclouds.
 
-	- B) Die weiteren drei Notebooks sind die Evaluationspipeline. "Generate_Answers" generiert 
-	  die Kandidatentexte zum Vergleich, "Metrics" berechnet den Vergleich der Modelle und 
-	  "analysis" analysiert die Ergebnisse und wertet sie aus.
+- B) Die weiteren drei Notebooks sind die Evaluationspipeline. "Generate_Answers" generiert 
+	 die Kandidatentexte zum Vergleich, "Metrics" berechnet den Vergleich der Modelle und 
+	 "analysis" analysiert die Ergebnisse und wertet sie aus.
 	
 
-	Results:
-	Die Ergebnisse des Projekts sind in grafische und tabellarischen Ausgaben gegliedert.
+**Results:**  
+    Die Ergebnisse des Projekts sind in grafische und tabellarischen Ausgaben gegliedert.
