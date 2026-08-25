@@ -1,7 +1,7 @@
 
 Welcome!!
 
-## Potential Risks of AI Writing Style Imitation Based on Personal Chat Data/ Potenzielle Risiken der Schreibstil-Imitation durch KI-Modelle anhand persönlicher Messenger-Daten
+## Potential Risks of AI Writing Style Imitation Based on Personal Chat Data/<br/>Potenzielle Risiken der Schreibstil-Imitation durch KI-Modelle anhand persönlicher Messenger-Daten
  
 # **Project description** (Eng)
 
